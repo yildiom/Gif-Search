@@ -1,0 +1,49 @@
+@import "./base/reset";
+@import "./base/fonts";
+@import "./base/variables";
+@import "./base/mixins";
+
+body{
+    background-color: white;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item a, .navbar-brand {
+    color: #40a3f5 !important;
+    font-weight: bold;
+    
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.contain{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.jumbo-text{
+    width: 75%;
+    line-height: 32px;
+    margin-right: 260px;
+}
+
+.jumbo-image{
+    width: 25%;
+    background-image: url("../js/assets/jumbo-image.png");
+    background-repeat: no-repeat;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #2F94E7;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
